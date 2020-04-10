@@ -32,7 +32,7 @@
 
 		base_fdt {
 			description = "Flattened Device Tree blob";
-			data = /incbin/("./at91-devboard-sama5d3.dtb");
+			data = /incbin/("./at91-sama5d3-devboard.dtb");
 			type = "flat_dt";
 			arch = "arm";
 			compression = "none";
